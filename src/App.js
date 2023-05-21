@@ -5,7 +5,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="New York" />
+
         <footer>
           This project is coded by Tetiana Chychyka and is{" "}
           <a
@@ -14,6 +15,14 @@ export default function App() {
             href="https://github.com/Tatyana19012/react-weather-app"
           >
             open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://magenta-lily-20ac2e.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hosted on Netlify
           </a>
         </footer>
       </div>
